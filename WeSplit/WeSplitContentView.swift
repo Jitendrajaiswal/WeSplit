@@ -49,6 +49,8 @@ struct WeSplitContentView: View {
                 
                 Section("Total amount spend") {
                     Text(totalAmountSpent, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
+                        .foregroundStyle(tipPercentage == 0 ? .red : .black)
+                        
                 }
                 Section("Amount per person") {
                     Text(amountPerHead, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))

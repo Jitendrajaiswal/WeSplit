@@ -24,14 +24,21 @@ struct ContentView: View {
                 }
                 
                 Section {
-                    Text("Hello, world!")
-                    Text("Hello, world!")
-                    Text("Hello, world!")
-                    Text("Hello, world!")
-                    Text("Hello, world!")
-                    Text("Hello, world!")
-                    Text("Hello, world!")
-                    Text("Hello, world!")
+                    VStack {
+                        Text("Hello...., world!")
+                            .blur(radius: 2)
+                        Text("Hello, world!")
+                        Text("Hello, world!")
+                        Text("Hello, world!")
+                        Text("Hello, world!")
+                        Text("Hello, world!")
+                        Text("Hello, world!")
+                        Text("Hello, world!")
+                        CapsuleText(text: "capsule 1")
+                            .foregroundColor(.red)
+                        CapsuleText(text: "Capsule 2")
+                    }
+                    //.blur(radius: 5)
                 }
                 
                 Picker("Selected student ", selection: $slectedStudent) {
@@ -47,6 +54,19 @@ struct ContentView: View {
             .navigationTitle("WeSplit")
             .navigationBarTitleDisplayMode(.automatic)
         }
+    }
+}
+
+struct CapsuleText: View {
+    var text: String
+
+    var body: some View {
+        Text(text)
+            .font(.largeTitle)
+            .padding()
+            // .foregroundStyle(.white)
+            .background(.blue)
+            .clipShape(.capsule)
     }
 }
 

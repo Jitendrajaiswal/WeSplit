@@ -29,8 +29,7 @@ struct GuessTheFlagContentView: View {
             VStack {
                 Spacer()
                 Text("Guess the flag")
-                    .font(.largeTitle.bold())
-                    .foregroundStyle(.white)
+                    .titleStyle()
                 VStack(spacing: 15) {
                     VStack {
                         Text("Tap the flag of").foregroundStyle(.secondary).font(.subheadline.weight(.heavy))
@@ -40,9 +39,7 @@ struct GuessTheFlagContentView: View {
                         Button {
                             flagTapped(number)
                         } label: {
-                            Image(countries[number])
-                                .shadow(radius: 5)
-                                .clipShape(.capsule)
+                            CapsuleView(image: countries[number])
                         }
                     }
                 }
@@ -106,6 +103,31 @@ struct GuessTheFlagContentView: View {
         currentQuestion = 0
         askNewQuestion()
     }
+}
+
+struct Title : ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .font(.largeTitle.bold())
+            .foregroundStyle(.white)
+    }
+    
+}
+extension View {
+    func titleStyle()-> some View {
+        modifier(Title())
+    }
+}
+
+struct CapsuleView: View {
+    var image: String
+
+    var body: some View {
+        Image(image)
+            .shadow(radius: 5)
+            .clipShape(.capsule)
+    }
+    
 }
 
 #Preview {
