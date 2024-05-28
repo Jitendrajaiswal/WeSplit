@@ -13,6 +13,9 @@
 		7916BBB42BFB33B900891A65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7916BBB32BFB33B900891A65 /* Preview Assets.xcassets */; };
 		7916BBBB2BFB460400891A65 /* WeSplitContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7916BBBA2BFB460400891A65 /* WeSplitContentView.swift */; };
 		7916BBBD2BFDD31200891A65 /* GuessTheFlagContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7916BBBC2BFDD31200891A65 /* GuessTheFlagContentView.swift */; };
+		79C2ED6B2C00806F00D6CDD7 /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2ED6A2C00806F00D6CDD7 /* Practice.swift */; };
+		79C2ED6D2C00A93900D6CDD7 /* BetterRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2ED6C2C00A93900D6CDD7 /* BetterRest.swift */; };
+		79C2ED6F2C00B18600D6CDD7 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 79C2ED6E2C00B18600D6CDD7 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		7916BBB32BFB33B900891A65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7916BBBA2BFB460400891A65 /* WeSplitContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitContentView.swift; sourceTree = "<group>"; };
 		7916BBBC2BFDD31200891A65 /* GuessTheFlagContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagContentView.swift; sourceTree = "<group>"; };
+		79C2ED6A2C00806F00D6CDD7 /* Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
+		79C2ED6C2C00A93900D6CDD7 /* BetterRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRest.swift; sourceTree = "<group>"; };
+		79C2ED6E2C00B18600D6CDD7 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +62,14 @@
 			isa = PBXGroup;
 			children = (
 				7916BBAC2BFB33B600891A65 /* WeSplitApp.swift */,
+				7916BBBA2BFB460400891A65 /* WeSplitContentView.swift */,
+				7916BBBC2BFDD31200891A65 /* GuessTheFlagContentView.swift */,
+				79C2ED6C2C00A93900D6CDD7 /* BetterRest.swift */,
+				79C2ED6E2C00B18600D6CDD7 /* SleepCalculator.mlmodel */,
 				7916BBAE2BFB33B600891A65 /* ContentView.swift */,
 				7916BBB02BFB33B900891A65 /* Assets.xcassets */,
 				7916BBB22BFB33B900891A65 /* Preview Content */,
-				7916BBBA2BFB460400891A65 /* WeSplitContentView.swift */,
-				7916BBBC2BFDD31200891A65 /* GuessTheFlagContentView.swift */,
+				79C2ED6A2C00806F00D6CDD7 /* Practice.swift */,
 			);
 			path = WeSplit;
 			sourceTree = "<group>";
@@ -144,8 +153,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7916BBBD2BFDD31200891A65 /* GuessTheFlagContentView.swift in Sources */,
+				79C2ED6D2C00A93900D6CDD7 /* BetterRest.swift in Sources */,
 				7916BBBB2BFB460400891A65 /* WeSplitContentView.swift in Sources */,
+				79C2ED6F2C00B18600D6CDD7 /* SleepCalculator.mlmodel in Sources */,
 				7916BBAF2BFB33B600891A65 /* ContentView.swift in Sources */,
+				79C2ED6B2C00806F00D6CDD7 /* Practice.swift in Sources */,
 				7916BBAD2BFB33B600891A65 /* WeSplitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

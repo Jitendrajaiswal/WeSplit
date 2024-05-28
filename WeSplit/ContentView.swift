@@ -51,6 +51,9 @@ struct ContentView: View {
             Button("TapCount \(tapCount)") {
                 self.tapCount += 1
             }
+            
+            
+            
             .navigationTitle("WeSplit")
             .navigationBarTitleDisplayMode(.automatic)
         }
