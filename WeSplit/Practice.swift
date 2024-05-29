@@ -39,6 +39,18 @@ struct Practice: View {
                 Text(Date.now, format: .dateTime.hour().minute())
                 Text(Date.now, format: .dateTime.day().month().year())
                 Text(Date.now, format: .dateTime.year().month().day())
+                
+                List {
+                    ForEach(1..<5) { i in
+                        Section("Section \(i)") {
+                                Text("Static row 1")
+                                Text("Static row 2")
+                            }
+                        Text("Hello World")
+                        Text("Hello World")
+                        Text("Hello World")
+                    }
+                }
             }
         }
 }
