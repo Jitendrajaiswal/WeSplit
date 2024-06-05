@@ -89,11 +89,18 @@ struct Practice: View {
                         isSheetShowing = true
                     }
                 }
-                .sheet(isPresented: $isSheetShowing) {
-                    SecondView()
-                        .transition(.move(edge: .trailing))
-                        .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 300)
-                }
+                Image(.bird)
+                    .resizable()
+                    .scaledToFit()
+                    .containerRelativeFrame(.horizontal) { size, axis in
+                        size * 0.8
+                    }
+                    // .frame(width: 300, height: 300)
+                    .sheet(isPresented: $isSheetShowing) {
+                        SecondView()
+                            .transition(.move(edge: .trailing))
+                            .frame(width: 100, height: 300)
+                    }
             }
             .toolbar {
                 EditButton()

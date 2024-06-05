@@ -22,6 +22,7 @@
 		79C2ED782C09C97200D6CDD7 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2ED772C09C97200D6CDD7 /* Expenses.swift */; };
 		79C2ED7A2C09CA8100D6CDD7 /* IExpenseContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2ED792C09CA8100D6CDD7 /* IExpenseContentView.swift */; };
 		79C2ED7C2C09E91700D6CDD7 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2ED7B2C09E91700D6CDD7 /* AddView.swift */; };
+		79C2ED7E2C0A0B2900D6CDD7 /* Practice2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2ED7D2C0A0B2900D6CDD7 /* Practice2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		79C2ED772C09C97200D6CDD7 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
 		79C2ED792C09CA8100D6CDD7 /* IExpenseContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IExpenseContentView.swift; sourceTree = "<group>"; };
 		79C2ED7B2C09E91700D6CDD7 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		79C2ED7D2C0A0B2900D6CDD7 /* Practice2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				7916BBB02BFB33B900891A65 /* Assets.xcassets */,
 				7916BBB22BFB33B900891A65 /* Preview Content */,
 				79C2ED6A2C00806F00D6CDD7 /* Practice.swift */,
+				79C2ED7D2C0A0B2900D6CDD7 /* Practice2.swift */,
 			);
 			path = WeSplit;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			files = (
 				79C2ED782C09C97200D6CDD7 /* Expenses.swift in Sources */,
 				7916BBBD2BFDD31200891A65 /* GuessTheFlagContentView.swift in Sources */,
+				79C2ED7E2C0A0B2900D6CDD7 /* Practice2.swift in Sources */,
 				79C2ED6D2C00A93900D6CDD7 /* BetterRest.swift in Sources */,
 				7916BBBB2BFB460400891A65 /* WeSplitContentView.swift in Sources */,
 				79C2ED7A2C09CA8100D6CDD7 /* IExpenseContentView.swift in Sources */,
